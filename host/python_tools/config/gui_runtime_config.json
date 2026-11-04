@@ -1,0 +1,22 @@
+{
+  "config_version": "mic16_gui_runtime_v4",
+  "formal_algorithm": "CA-QW-SRP-CCTCN",
+  "sample_rate_hz": 39062.5,
+  "channels": 16,
+  "frame_samples": 2048,
+  "array_radius_m": 0.08,
+  "gcc_fft_len": 4096,
+  "gcc_max_lag": 20,
+  "angle_step_deg": 5,
+  "sequence_len": 5,
+  "confidence_threshold": 0.7880566716194153,
+  "min_valid_pairs": 20,
+  "default_backend": "CA-QW-SRP-CCTCN",
+  "fallback_backend": "SRP-PHAT",
+  "checkpoint_path": "ssl_nn/outputs/formal_mvdr_calibration_consistent_multi_array_v1/ca_qw_srp_cctcn/checkpoints/best.pt",
+  "calibration_path": "mic16_next_version/calibration/mic16_calibration.json",
+  "allow_identity_calibration": false,
+  "replay_root": "mic16_next_version/results",
+  "notes": "PC GUI 运行配置；不代表 HLS、FPGA 或板端验证。",
+  "extra": {}
+}

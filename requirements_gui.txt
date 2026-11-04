@@ -1,0 +1,4 @@
+# 与已验证的Python 3.13.5上位机环境一致
+PySide6==6.8.3
+pyqtgraph==0.14.0
+numpy==2.5.3

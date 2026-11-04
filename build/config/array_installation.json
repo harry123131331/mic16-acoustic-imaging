@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "reference_plane": "MICROPHONE_ARRAY_PLANE",
+  "origin": "MICROPHONE_ARRAY_CENTER",
+  "pose": "VERTICAL_ARRAY_NORMAL_HORIZONTAL",
+  "cardinal_microphones": {
+    "up": 0,
+    "left": 4,
+    "down": 8,
+    "right": 12
+  },
+  "azimuth_zero_microphone": 12,
+  "azimuth_quarter_microphone": 0,
+  "azimuth_direction": "MIC12_TO_MIC0_TO_MIC4_TO_MIC8",
+  "user_confirmed": true,
+  "pose_measured": false,
+  "geometry_sha256": "6222b47c9b3a6db1742600114c5de82a87380e20d29716d806853d947229d382",
+  "confirmed_date": "2026-11-01",
+  "confirmation": "用户明确：阵列平面为0度；MIC12方位0度、MIC0为90度、MIC4为180度、MIC8为270度。",
+  "description": "俯仰为完整声源方向与阵列平面的夹角，正前方90度；正对法线时方位未定义。"
+}

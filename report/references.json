@@ -1,0 +1,98 @@
+{
+  "count": 15,
+  "entries": [
+    "[1] KNAPP C H, CARTER G C. The generalized correlation method for estimation of time delay[J]. IEEE Transactions on Acoustics Speech and Signal Processing, 1976, 24(4): 320-327. DOI:10.1109/TASSP.1976.1162830.",
+    "[2] DIBIASE J H, SILVERMAN H F, BRANDSTEIN M S. Robust localization in reverberant rooms[M]//BRANDSTEIN M, WARD D. Microphone Arrays: Signal Processing Techniques and Applications. Berlin, Heidelberg: Springer, 2001: 157-180. DOI:10.1007/978-3-662-04619-7_8.",
+    "[3] COBOS M, MARTI A, LOPEZ J J. A modified SRP-PHAT functional for robust real-time sound source localization with scalable spatial sampling[J]. IEEE Signal Processing Letters, 2011, 18(1): 71-74. DOI:10.1109/LSP.2010.2091502.",
+    "[4] GRONDIN F, MICHAUD F. Lightweight and optimized sound source localization and tracking methods for open and closed microphone array configurations[J]. Robotics and Autonomous Systems, 2019, 113: 63-80. DOI:10.1016/j.robot.2019.01.002.",
+    "[5] DA SILVA B, SEGERS L, BRAEKEN A, et al. Design Exploration and Performance Strategies towards Power-Efficient FPGA-Based Architectures for Sound Source Localization[J]. Journal of Sensors, 2019, 2019: 5761235. DOI:10.1155/2019/5761235.",
+    "[6] DA SILVA B, SEGERS L, BRAEKEN A, et al. Runtime reconfigurable beamforming architecture for real-time sound-source localization[C]//2016 26th International Conference on Field Programmable Logic and Applications. Lausanne: IEEE, 2016: 1-4. DOI:10.1109/FPL.2016.7577375.",
+    "[7] AMD. 全国大学生嵌入式芯片与系统设计竞赛2026 FPGA创新设计赛道选题指南 AMD[R]. 2026:19-22,25. 自主选题设计、提交内容与决赛海报要求。",
+    "[8] STMICROELECTRONICS. MP34DT05-A MEMS audio sensor omnidirectional digital microphone datasheet DS12239 Rev 5[EB/OL]. [2026-10-31]. https://www.st.com.cn/resource/en/datasheet/mp34dt05-a.pdf.",
+    "[9] AMD. Zynq 7000 SoC Technical Reference Manual UG585 Version 1.15[EB/OL]. 2026-02-06[2026-10-31]. https://docs.amd.com/r/en-US/ug585-zynq-7000-SoC-TRM.",
+    "[10] AMD. AXI DMA LogiCORE IP Product Guide PG021 Version 7.1[EB/OL]. 2025-06-24[2026-10-31]. https://docs.amd.com/r/en-US/pg021_axi_dma.",
+    "[11] HOGENAUER E B. An economical class of digital filters for decimation and interpolation[J]. IEEE Transactions on Acoustics, Speech, and Signal Processing, 1981, 29(2): 155-162. DOI:10.1109/TASSP.1981.1163535.",
+    "[12] AMD. Vitis High-Level Synthesis User Guide: UG1399, v2020.2[EB/OL]. 2021-03-22[2026-11-02]. https://docs.amd.com/r/2020.2-English/ug1399-vitis-hls.",
+    "[13] LEE E A, MESSERSCHMITT D G. Synchronous data flow[J]. Proceedings of the IEEE, 1987, 75(9): 1235-1245. DOI:10.1109/PROC.1987.13876.",
+    "[14] COOLEY J W, TUKEY J W. An algorithm for the machine calculation of complex Fourier series[J]. Mathematics of Computation, 1965, 19(90): 297-301. DOI:10.1090/S0025-5718-1965-0178586-1.",
+    "[15] ZHANG Z. A flexible new technique for camera calibration[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2000, 22(11): 1330-1334. DOI:10.1109/34.888718."
+  ],
+  "verification": {
+    "count": 15,
+    "numbering": "正文首次引用顺序",
+    "date": "2026-11-02",
+    "new_records": [
+      {
+        "number": 2,
+        "entry": "[2] DIBIASE J H, SILVERMAN H F, BRANDSTEIN M S. Robust localization in reverberant rooms[M]//BRANDSTEIN M, WARD D. Microphone Arrays: Signal Processing Techniques and Applications. Berlin, Heidelberg: Springer, 2001: 157-180. DOI:10.1007/978-3-662-04619-7_8.",
+        "primary_url": "https://link.springer.com/chapter/10.1007/978-3-662-04619-7_8",
+        "use_and_scope": "出版方章节页，作者、章节和页码；用于SRP相关工作。"
+      },
+      {
+        "number": 3,
+        "entry": "[3] COBOS M, MARTI A, LOPEZ J J. A modified SRP-PHAT functional for robust real-time sound source localization with scalable spatial sampling[J]. IEEE Signal Processing Letters, 2011, 18(1): 71-74. DOI:10.1109/LSP.2010.2091502.",
+        "primary_url": "https://riunet.upv.es/server/api/core/bitstreams/dc326911-46d4-4fd9-8a1c-242133d57fd0/content",
+        "use_and_scope": "作者机构论文稿及其出版信息；仅作空间采样相关工作，未声称已移植。"
+      },
+      {
+        "number": 4,
+        "entry": "[4] GRONDIN F, MICHAUD F. Lightweight and optimized sound source localization and tracking methods for open and closed microphone array configurations[J]. Robotics and Autonomous Systems, 2019, 113: 63-80. DOI:10.1016/j.robot.2019.01.002.",
+        "primary_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889017309399",
+        "use_and_scope": "出版方元数据与作者稿https://arxiv.org/abs/1812.00115；分层扫描和跟踪为相关工作及后续参考。"
+      },
+      {
+        "number": 11,
+        "entry": "[11] HOGENAUER E B. An economical class of digital filters for decimation and interpolation[J]. IEEE Transactions on Acoustics, Speech, and Signal Processing, 1981, 29(2): 155-162. DOI:10.1109/TASSP.1981.1163535.",
+        "primary_url": "https://ieeexplore.ieee.org/document/1163535",
+        "use_and_scope": "原论文DOI/出版记录，IEEE页面受访问验证限制；只引用CIC的基础原理，不借用性能结果。"
+      },
+      {
+        "number": 13,
+        "entry": "[13] LEE E A, MESSERSCHMITT D G. Synchronous data flow[J]. Proceedings of the IEEE, 1987, 75(9): 1235-1245. DOI:10.1109/PROC.1987.13876.",
+        "primary_url": "https://ptolemy.berkeley.edu/publications/papers/87/synchdataflow/",
+        "use_and_scope": "作者机构出版页；参考生产消费速率与缓冲建模，不将当前动态准入称为静态SDF实现。"
+      },
+      {
+        "number": 6,
+        "entry": "[6] DA SILVA B, SEGERS L, BRAEKEN A, et al. Runtime reconfigurable beamforming architecture for real-time sound-source localization[C]//2016 26th International Conference on Field Programmable Logic and Applications. Lausanne: IEEE, 2016: 1-4. DOI:10.1109/FPL.2016.7577375.",
+        "primary_url": "https://researchportal.vub.be/en/publications/runtime-reconfigurable-beamforming-architecture-for-real-time-sou/",
+        "use_and_scope": "作者机构FPL论文记录；参考可扩展和重配置架构，不声称当前使用CFGLUT或达到原论文速度。"
+      },
+      {
+        "number": 12,
+        "entry": "[12] AMD. Vitis High-Level Synthesis User Guide: UG1399, v2020.2[EB/OL]. 2021-03-22[2026-11-02]. https://docs.amd.com/r/2020.2-English/ug1399-vitis-hls.",
+        "primary_url": "https://docs.amd.com/r/2020.2-English/ug1399-vitis-hls/pragma-HLS-allocation",
+        "use_and_scope": "官方2020.2文档；资源共享可减少实例但也会影响性能，不等同于当前源码采用某条特定pragma。"
+      },
+      {
+        "number": 15,
+        "entry": "[15] ZHANG Z. A flexible new technique for camera calibration[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2000, 22(11): 1330-1334. DOI:10.1109/34.888718.",
+        "primary_url": "https://www.microsoft.com/en-us/research/publication/a-flexible-new-technique-for-camera-calibration/",
+        "use_and_scope": "作者机构出版页；相机内参与径向畸变标定作为后续工作，未写成现有人工对齐已经完成。"
+      },
+      {
+        "number": 14,
+        "entry": "[14] COOLEY J W, TUKEY J W. An algorithm for the machine calculation of complex Fourier series[J]. Mathematics of Computation, 1965, 19(90): 297-301. DOI:10.1090/S0025-5718-1965-0178586-1.",
+        "primary_url": "https://www.ams.org/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf",
+        "use_and_scope": "出版方原文；仅引用FFT分解原理。"
+      }
+    ],
+    "citation_map_from_previous": {
+      "4": 1,
+      "7": 2,
+      "8": 3,
+      "9": 4,
+      "5": 5,
+      "12": 6,
+      "6": 7,
+      "1": 8,
+      "2": 9,
+      "3": 10,
+      "10": 11,
+      "13": 12,
+      "11": 13,
+      "15": 14,
+      "14": 15
+    }
+  }
+}

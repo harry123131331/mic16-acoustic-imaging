@@ -1,0 +1,14 @@
+{
+  "hardware_bundle": "build/hardware/audio_only_bundle_ascii_20261026",
+  "reference_f32": "build/headless/audio_resident_candidate_20261026/cached_reference_f32.bin",
+  "reference_f32_sha256": "2695490c169da8d88e819d1b3bdb8636d78e86ef5c8b7aeb32ee5ba5acb90771",
+  "reference_provenance": "沿用20261023环境参考，非受控安静录音；不在提交源码入口存原始录音",
+  "scale_exponent": 18,
+  "channel_mapping": "名义0..15，实板逐通道空间顺序待验",
+  "sample_rate_hz": 39062.5,
+  "input_samples": 40960,
+  "input_period_seconds": 1.048576,
+  "candidates": 16,
+  "feature_dimension": 130,
+  "threshold": 0.65
+}

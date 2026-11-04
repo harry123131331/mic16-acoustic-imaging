@@ -1,0 +1,5 @@
+# Optional Phase-1 acoustic-camera GUI dependencies.
+# The core acquisition/localization GUI does not require this file.
+pillow
+opencv-python
+

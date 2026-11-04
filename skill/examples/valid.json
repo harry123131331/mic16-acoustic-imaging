@@ -1,0 +1,19 @@
+{
+  "kind": "CONTRACT_FIXTURE_NOT_BOARD_MEASUREMENT",
+  "sample_rate_hz": 1000,
+  "samples_per_frame": 100,
+  "captured_frames": 10,
+  "analyzed_frames": 4,
+  "uncovered_frames": 6,
+  "results": [
+    {
+      "sequence": 1,
+      "first_sample": 0,
+      "end_sample": 400,
+      "received_time_ms": 10,
+      "painted_time_ms": 20
+    }
+  ],
+  "claims_physical_latency": false,
+  "claims_every_frame_analyzed": false
+}

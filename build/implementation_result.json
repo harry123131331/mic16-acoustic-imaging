@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "native_exit": 0,
+  "host_seconds": 779.5267626999994,
+  "metrics": {
+    "SETUP_SLACK_NS": "0.063",
+    "HOLD_SLACK_NS": "0.036",
+    "DRC_ERRORS": "0"
+  },
+  "protected_formal_bundle_unchanged": {
+    "prebuilt/audio_dataflow/ac880_audio_dataflow.bit": true,
+    "prebuilt/audio_dataflow/ac880_audio_dataflow.xsa": true,
+    "prebuilt/audio_dataflow/ac880_audio_resident.elf": true,
+    "prebuilt/audio_dataflow/manifest.json": true,
+    "prebuilt/audio_dataflow/ps7_init.c": true,
+    "prebuilt/audio_dataflow/ps7_init.h": true,
+    "prebuilt/audio_dataflow/ps7_init.html": true,
+    "prebuilt/audio_dataflow/ps7_init.tcl": true,
+    "prebuilt/audio_dataflow/ps7_init_gpl.c": true,
+    "prebuilt/audio_dataflow/ps7_init_gpl.h": true,
+    "prebuilt/audio_dataflow/README.md": true
+  },
+  "board_operations": 0,
+  "new_ARM_time_measured": false,
+  "under_1_second_proven": false,
+  "continuous_throughput_passed": false,
+  "firmware_bound": false
+}

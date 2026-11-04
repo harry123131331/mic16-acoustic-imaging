@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1340" viewBox="0 0 1800 1340"><rect width="100%" height="100%" fill="white"/>
+<rect x="300" y="45" width="1200" height="120" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="120.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">16通道连续四帧独立快照</text>
+<polyline points="900,165 900,235" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="900,235 890.4307582495529,215.1901637482411 909.5692417504471,215.1901637482411" fill="#285572"/>
+<rect x="300" y="235" width="1200" height="120" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="310.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">公共FFT与通道对PHAT处理</text>
+<polyline points="900,355 900,425" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="900,425 890.4307582495529,405.1901637482411 909.5692417504471,405.1901637482411" fill="#285572"/>
+<rect x="300" y="425" width="1200" height="120" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="500.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">24频带 × 325方向空间响应</text>
+<polyline points="900,545 900,615" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="900,615 890.4307582495529,595.1901637482412 909.5692417504471,595.1901637482412" fill="#285572"/>
+<rect x="300" y="615" width="1200" height="120" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="690.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">频带质量筛选与加权归一化</text>
+<polyline points="900,735 900,805" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="900,805 890.4307582495529,785.1901637482412 909.5692417504471,785.1901637482412" fill="#285572"/>
+<rect x="300" y="805" width="1200" height="120" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="880.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">四帧融合、主导峰与邻域支持判断</text>
+<polyline points="900,925 900,990" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="900,990 890.4307582495529,970.1901637482412 909.5692417504471,970.1901637482412" fill="#285572"/>
+<rect x="140" y="1030" width="670" height="180" rx="16" fill="#eaf5ee" stroke="#285572" stroke-width="3"/>
+<text x="475.0" y="1107.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">通过质量规则</text>
+<text x="475.0" y="1159.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">发布主导方向与对应响应</text>
+<rect x="990" y="1030" width="670" height="180" rx="16" fill="#faf2e9" stroke="#285572" stroke-width="3"/>
+<text x="1325.0" y="1107.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">质量不足或无有效频带</text>
+<text x="1325.0" y="1159.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">发布无效状态并清除标记</text>
+<polyline points="900,990 475,990 475,1030" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="475,1030 465.4307582495529,1010.1901637482412 484.5692417504471,1010.1901637482412" fill="#285572"/>
+<polyline points="900,990 1325,990 1325,1030" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1325,1030 1315.430758249553,1010.1901637482412 1334.569241750447,1010.1901637482412" fill="#285572"/>
+</svg>

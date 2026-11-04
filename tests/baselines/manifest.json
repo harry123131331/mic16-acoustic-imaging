@@ -1,0 +1,15 @@
+{
+  "scope": "BEFORE_PROFILING_ONLY_NOT_ACOUSTIC_DATA",
+  "files": [
+    {
+      "path": "tests/baselines/pipeline_reference.c",
+      "sha256": "91bf48d317e5f7042a7a3b71c30e7d38b512bcbf4f863df58c88f4c9b754cb33",
+      "source": "firmware/modules/pipeline/src/mic16_pipeline.c"
+    },
+    {
+      "path": "tests/baselines/live_bridge_reference.c",
+      "sha256": "1f524a20682c26c7f4110a8d87980ed77f8ecb5b7aaa85901227ec86886aabb7",
+      "source": "firmware/modules/live_input/src/mic16_live_bridge.c"
+    }
+  ]
+}

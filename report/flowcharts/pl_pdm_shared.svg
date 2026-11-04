@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1160"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="55.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="46" font-weight="700" fill="#172b3a">16路PDM整组采样与分时抽取</text>
+<rect x="30" y="115" width="630" height="820" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="50" y="133" width="590" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="345.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">同步取数</text>
+<rect x="720" y="115" width="700" height="820" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="740" y="133" width="660" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1070.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">共享运算与通道状态</text>
+<rect x="1480" y="115" width="690" height="820" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="1500" y="133" width="650" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1825.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">低速滤波与整组交接</text>
+<rect x="90" y="260" width="510" height="135" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="345.0" y="302.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">16路DATA</text>
+<text x="345.0" y="352.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">两级同步触发器</text>
+<rect x="90" y="500" width="510" height="155" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="345.0" y="552.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">采样使能到达</text>
+<text x="345.0" y="602.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">锁存16位group_bits</text>
+<path d="M345 395 L345 490" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="345,490 338.4758327510469,475.39057695500304 351.5241672489531,475.39057695500304" fill="#344b5e"/>
+<path d="M600 575 L770 575" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="770,575 755.3905769550031,581.5241672489532 755.3905769550031,568.4758327510468" fill="#344b5e"/>
+<rect x="780" y="250" width="580" height="150" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1070.0" y="299.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">channel = 0…15</text>
+<text x="1070.0" y="350.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">每拍调入一路状态</text>
+<rect x="780" y="500" width="580" height="150" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1070.0" y="549.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">三级积分流水</text>
+<text x="1070.0" y="600.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">i1 → i2 → i3</text>
+<path d="M1070 400 L1070 490" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1070,490 1063.475832751047,475.39057695500304 1076.524167248953,475.39057695500304" fill="#344b5e"/>
+<rect x="780" y="730" width="580" height="140" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1070.0" y="776.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">各路状态独立存RAM</text>
+<text x="1070.0" y="823.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">通道标签随流水推进</text>
+<path d="M1070 650 L1070 720" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1070,720 1063.475832751047,705.3905769550031 1076.524167248953,705.3905769550031" fill="#344b5e"/>
+<rect x="1540" y="250" width="570" height="180" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1825.0" y="292.4" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">每64组进入低速链</text>
+<text x="1825.0" y="340.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">三级梳状差分</text>
+<text x="1825.0" y="387.6" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">直流阻断与补偿</text>
+<rect x="1540" y="550" width="570" height="160" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1825.0" y="606.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">五抽头移位加法滤波</text>
+<text x="1825.0" y="653.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">截断及32位饱和</text>
+<rect x="1540" y="780" width="570" height="110" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1825.0" y="835.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">16路齐备 → pcm_valid</text>
+<path d="M1360 575 L1450 575 L1450 340 L1530 340" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1530,340 1515.390576955003,346.5241672489531 1515.390576955003,333.4758327510469" fill="#344b5e"/>
+<path d="M1825 430 L1825 540" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1825,540 1818.475832751047,525.3905769550031 1831.524167248953,525.3905769550031" fill="#344b5e"/>
+<path d="M1825 710 L1825 770" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1825,770 1818.475832751047,755.3905769550031 1831.524167248953,755.3905769550031" fill="#344b5e"/>
+<text x="1100" y="1030.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">100 MHz下每个PDM采样组间隔40拍；16路依次计算，输入采样时刻保持一致</text>
+</svg>

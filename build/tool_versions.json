@@ -1,0 +1,27 @@
+{
+  "vivado": {
+    "version": "2020.2",
+    "build": "3064766",
+    "source": "build/timing_summary.rpt"
+  },
+  "vitis": {
+    "version": "2020.2",
+    "arm_gcc": "9.2.0",
+    "source": "Vitis 2020.2 ARM GCC --version"
+  },
+  "vitis_hls": {
+    "version": "2020.2",
+    "build": "3064766",
+    "source": "build/hls_reports/shared_compute_csynth.rpt"
+  },
+  "host": {
+    "application": "0.5.0-compact-localization",
+    "python": "3.13.5",
+    "qt": "6.8.3",
+    "pyside6": "6.8.3",
+    "pyqtgraph": "0.14.0",
+    "numpy": "2.5.3"
+  },
+  "observation_date": "2026-11-02",
+  "board_operations": 0
+}

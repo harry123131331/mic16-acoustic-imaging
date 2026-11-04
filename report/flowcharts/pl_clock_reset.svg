@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="960"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="55.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="46" font-weight="700" fill="#172b3a">双时钟域及复位分配</text>
+<rect x="30" y="115" width="1020" height="660" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="50" y="133" width="980" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="540.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">100 MHz 采集与DMA时钟域</text>
+<rect x="1150" y="115" width="1020" height="660" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="1170" y="133" width="980" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1660.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">125 MHz 共享计算时钟域</text>
+<rect x="100" y="250" width="380" height="130" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="290.0" y="289.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">FCLK0 → clk_wiz</text>
+<text x="290.0" y="340.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">100 MHz</text>
+<rect x="620" y="230" width="350" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="795.0" y="267.4" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">PDM采样与抽取</text>
+<text x="795.0" y="315.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">AXIS FIFO</text>
+<text x="795.0" y="362.6" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">DMA S2MM / HP0</text>
+<path d="M480 315 L610 315" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="610,315 595.3905769550031,321.5241672489531 595.3905769550031,308.4758327510469" fill="#344b5e"/>
+<rect x="1220" y="250" width="360" height="130" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1400.0" y="289.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">FCLK1</text>
+<text x="1400.0" y="340.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">125 MHz</text>
+<rect x="1700" y="230" width="390" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1895.0" y="267.4" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">共享FP64核</text>
+<text x="1895.0" y="315.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">Q2.24扫描核</text>
+<text x="1895.0" y="362.6" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">GP1 / HP1 / HP2</text>
+<path d="M1580 315 L1690 315" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1690,315 1675.390576955003,321.5241672489531 1675.390576955003,308.4758327510469" fill="#344b5e"/>
+<rect x="100" y="505" width="870" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="535.0" y="564.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">proc_sys_reset_0</text>
+<text x="535.0" y="615.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">同步释放外设复位；FIFO另有局部复位</text>
+<rect x="1220" y="505" width="870" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1655.0" y="564.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">proc_sys_reset_1</text>
+<text x="1655.0" y="615.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">按125 MHz时钟同步释放计算核复位</text>
+<text x="1100" y="850.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">FCLK_RESET0_N与锁相状态送入复位模块；跨域访问由AXI互连处理</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="800" viewBox="0 0 1800 800"><rect width="100%" height="100%" fill="white"/>
+<rect x="55" y="290" width="440" height="180" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="275.0" y="366.67" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">上电后加载</text>
+<text x="275.0" y="422.57" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">READY / IDLE</text>
+<rect x="680" y="290" width="440" height="180" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="366.67" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">START确认</text>
+<text x="900.0" y="422.57" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">预热与连续运行</text>
+<rect x="1305" y="290" width="440" height="180" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1525.0" y="366.67" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">STOP请求</text>
+<text x="1525.0" y="422.57" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">排空与归还资源</text>
+<polyline points="495,380 680,380" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="680,380 660.1901637482412,389.5692417504471 660.1901637482412,370.4307582495529" fill="#285572"/>
+<text x="585" y="336.9" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="35" fill="#172b3f">START</text>
+<polyline points="1120,380 1305,380" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1305,380 1285.190163748241,389.5692417504471 1285.190163748241,370.4307582495529" fill="#285572"/>
+<text x="1215" y="336.9" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="35" fill="#172b3f">STOP</text>
+<polyline points="1525,470 1525,650 275,650 275,470" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="275,470 284.5692417504471,489.8098362517589 265.4307582495529,489.8098362517589" fill="#285572"/>
+<text x="900" y="721.9" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="35" fill="#172b3f">排空完成后返回待机；再次START建立新epoch</text>
+<text x="900" y="122.58" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="37" fill="#172b3f">限时检查在第9秒请求同一个STOP流程；普通演示由用户手动停止</text>
+</svg>

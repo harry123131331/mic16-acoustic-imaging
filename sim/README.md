@@ -1,0 +1,5 @@
+# 验证结果
+
+hemisphere_result.json来自现有325槽几何、邻域和三组原Q2.24模型检查；display_result.json为81项上位机与协议离线检查汇总。data/hemisphere_packets.json保存C编码器的三组解析数字报文。它们不是真实录音，也不是房间准确率测试。
+
+tests/保留原测试源码，其中部分研究测试依赖完整开发机的历史夹具和工具。先运行skill/evidence_audit.py自检及build/rebuild_ps.py输入核验；不要把全部tests目录直接当成已在提交副本从零运行通过。

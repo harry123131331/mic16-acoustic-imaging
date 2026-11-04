@@ -1,0 +1,9 @@
+{
+  "scope": "PRESERVED_FIXED_NUMERICAL_GOLDEN_NOT_ACOUSTIC_CORPUS",
+  "original_sha256": {
+    "mic16_pipeline_gold.h": "d73df2e6bbbf5ad47f0eb845aff286c7a513a761b6df267f808d6038e04fc46f",
+    "mic16_pipeline_unit.h": "d38100746abd6d189c09b8a3bf5ec44e90aa2f79496d633f19ef79e82962e61c",
+    "mic16_pipeline_unit.c": "2941dee9f240c7536ead495f57c17aab81042af7fcc8a8d76cda706c97939505"
+  },
+  "golden_unchanged": true
+}

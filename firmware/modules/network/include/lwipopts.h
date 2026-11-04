@@ -1,0 +1,34 @@
+#ifndef MIC16_R7_LWIPOPTS_H
+#define MIC16_R7_LWIPOPTS_H
+/* 候选程序本地配置，不替换旧BSP或FreeRTOS库。 */
+#define NO_SYS 1
+#define SYS_LIGHTWEIGHT_PROT 1
+#define LWIP_SOCKET 0
+#define LWIP_NETCONN 0
+#define LWIP_TCP 0
+#define LWIP_RAW 0
+#define LWIP_UDP 1
+#define LWIP_IPV4 1
+#define LWIP_IPV6 0
+#define LWIP_DHCP 0
+#define LWIP_AUTOIP 0
+#define LWIP_IGMP 0
+#define LWIP_DNS 0
+#define LWIP_TIMERS 1
+#define LWIP_TIMERS_CUSTOM 0
+#define MEMP_NUM_SYS_TIMEOUT 8
+#define MEM_ALIGNMENT 64
+#define MEM_SIZE (2*1024*1024)
+#define MEMP_NUM_PBUF 256
+#define PBUF_POOL_SIZE 256
+#define PBUF_POOL_BUFSIZE 1600
+#define MEMP_NUM_UDP_PCB 2
+#define LWIP_ARP 1
+#define ARP_QUEUEING 0
+#define LWIP_NETIF_LINK_CALLBACK 0
+#define IP_REASSEMBLY 0
+#define IP_FRAG 0
+#define LWIP_STATS 1
+#define LWIP_CHKSUM_ALGORITHM 3
+#define TCP_MSS 1460
+#endif

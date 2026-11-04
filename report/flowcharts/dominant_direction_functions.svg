@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="1146" viewBox="0 0 1650 1146">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#374151"/></marker></defs>
+<rect x="57.7" y="165.0" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="218.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_fast_doa_begin()</text>
+<text x="416.6" y="260.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">复制24×325响应和24个带电平</text>
+<rect x="57.7" y="393.8" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="447.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">MAX / SECOND</text>
+<text x="416.6" y="489.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">找带峰与15°邻域外次峰</text>
+<rect x="57.7" y="622.6" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="676.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">电平差≤20 dB、峰≥0.15</text>
+<text x="416.6" y="718.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">对比度≥0.02：保留频带</text>
+<rect x="57.7" y="851.4" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="905.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">ADD / NORMALIZE</text>
+<text x="416.6" y="947.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">权重=峰×对比度；单帧归一化</text>
+<path d="M416.6 319.0 L416.6 385.0" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M416.6 547.8 L416.6 613.8" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M416.6 776.6 L416.6 842.6" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="899.2" y="165.0" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="218.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">累计四帧后 FUSE / PEAK</text>
+<text x="1258.1" y="260.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">有效帧均值并寻找融合峰</text>
+<rect x="899.2" y="393.8" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="447.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">CONTRAST / publish()</text>
+<text x="1258.1" y="489.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">统计15°邻域的帧间支持</text>
+<rect x="899.2" y="622.6" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="676.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">峰≥0.15、差≥0.02</text>
+<text x="1258.1" y="718.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">支持率≥0.5 → valid=1</text>
+<rect x="899.2" y="851.4" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="905.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">无合格方向仍发布状态</text>
+<text x="1258.1" y="947.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">peek() → 编码 → ack()</text>
+<path d="M1258.1 319.0 L1258.1 385.0" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1258.1 547.8 L1258.1 613.8" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1258.1 776.6 L1258.1 842.6" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M775.5 926.2 L899.2 239.8" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="825.0" y="1108.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="32" fill="#202830">每步最多64个方向项；原生射线角发送到PC后再换算为板面角度。</text>
+</svg>

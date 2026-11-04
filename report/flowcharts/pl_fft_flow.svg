@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1110"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="55.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="46" font-weight="700" fill="#172b3a">共享FP64 FFT运算通路</text>
+<rect x="30" y="115" width="630" height="800" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="50" y="133" width="590" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="345.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">输入与地址变换</text>
+<rect x="740" y="115" width="720" height="800" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="760" y="133" width="680" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1100.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">逐级蝶形流水</text>
+<rect x="1540" y="115" width="630" height="800" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="1560" y="133" width="590" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1855.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">输出与结果确认</text>
+<rect x="90" y="250" width="510" height="160" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="345.0" y="306.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">任务描述符</text>
+<text x="345.0" y="353.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">长度、方向与DDR偏移</text>
+<rect x="90" y="560" width="510" height="175" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="345.0" y="623.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">旋转因子装载</text>
+<text x="345.0" y="671.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">输入位倒序写入4个bank</text>
+<path d="M345 410 L345 550" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="345,550 338.4758327510469,535.3905769550031 351.5241672489531,535.3905769550031" fill="#344b5e"/>
+<path d="M600 645 L800 645" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="800,645 785.3905769550031,651.5241672489532 785.3905769550031,638.4758327510468" fill="#344b5e"/>
+<rect x="800" y="250" width="600" height="145" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1100.0" y="298.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">读取一对复数A、B</text>
+<text x="1100.0" y="346.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">从相反奇偶校验bank取数</text>
+<rect x="800" y="490" width="600" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1100.0" y="551.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">复数乘法 W×B</text>
+<text x="1100.0" y="598.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">计算 A＋W×B 与 A－W×B</text>
+<rect x="800" y="750" width="600" height="110" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1100.0" y="805.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">当前级排空 → 下一FFT级</text>
+<path d="M1100 395 L1100 480" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1100,480 1093.475832751047,465.39057695500304 1106.524167248953,465.39057695500304" fill="#344b5e"/>
+<path d="M1100 660 L1100 740" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1100,740 1093.475832751047,725.3905769550031 1106.524167248953,725.3905769550031" fill="#344b5e"/>
+<rect x="1600" y="250" width="510" height="160" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1855.0" y="306.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">按自然序读出</text>
+<text x="1855.0" y="353.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">逆变换时乘1/N</text>
+<rect x="1600" y="560" width="510" height="175" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1855.0" y="623.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">结果写DDR</text>
+<text x="1855.0" y="671.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">写状态、点数与任务标签</text>
+<path d="M1400 805 L1500 805 L1500 330 L1590 330" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1590,330 1575.390576955003,336.5241672489531 1575.390576955003,323.4758327510469" fill="#344b5e"/>
+<path d="M1855 410 L1855 550" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1855,550 1848.475832751047,535.3905769550031 1861.524167248953,535.3905769550031" fill="#344b5e"/>
+<text x="1100" y="1010.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">快速定位每通道将4096点实变换压缩为2048点复数FFT；恢复频谱与PHAT在PS完成</text>
+</svg>

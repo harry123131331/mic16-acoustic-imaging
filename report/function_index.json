@@ -1,0 +1,300 @@
+{
+  "functions": [
+    {
+      "function": "main",
+      "file": "firmware/app/audio_dataflow_main.c",
+      "line": 22,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_audio_platform_arm_init",
+      "file": "build/inputs/4eb2b011ba/mic16_audio_platform_arm_latest.c",
+      "line": 64,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_audio_platform_arm_step",
+      "file": "build/inputs/4eb2b011ba/mic16_audio_platform_arm_latest.c",
+      "line": 96,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "start",
+      "file": "build/inputs/3269688a83/mic16_latest_display_resident.c",
+      "line": 29,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "raw_copy",
+      "file": "build/inputs/3269688a83/mic16_latest_display_resident.c",
+      "line": 40,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "send_one",
+      "file": "build/inputs/3269688a83/mic16_latest_display_resident.c",
+      "line": 53,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "drain",
+      "file": "build/inputs/3269688a83/mic16_latest_display_resident.c",
+      "line": 98,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_latest_display_resident_step",
+      "file": "build/inputs/3269688a83/mic16_latest_display_resident.c",
+      "line": 130,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "admit",
+      "file": "build/inputs/ab8206c563/mic16_latest_window_task.c",
+      "line": 36,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "snapshot",
+      "file": "build/inputs/ab8206c563/mic16_latest_window_task.c",
+      "line": 46,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "compute",
+      "file": "build/inputs/ab8206c563/mic16_latest_window_task.c",
+      "line": 76,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_latest_window_step",
+      "file": "build/inputs/ab8206c563/mic16_latest_window_task.c",
+      "line": 121,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_latest_window_ack",
+      "file": "build/inputs/ab8206c563/mic16_latest_window_task.c",
+      "line": 133,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_pcm_acquisition_step",
+      "file": "build/inputs/6c1c5513d3/mic16_pcm_acquisition.c",
+      "line": 43,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_pcm_acquisition_frame",
+      "file": "build/inputs/6c1c5513d3/mic16_pcm_acquisition.c",
+      "line": 83,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_public_spectrum_begin",
+      "file": "firmware/modules/dataflow/src/mic16_public_spectrum_task.c",
+      "line": 47,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "run_step",
+      "file": "firmware/modules/dataflow/src/mic16_public_spectrum_task.c",
+      "line": 58,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_public_spectrum_step",
+      "file": "firmware/modules/dataflow/src/mic16_public_spectrum_task.c",
+      "line": 171,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_spatial_evidence_step",
+      "file": "firmware/modules/dataflow/src/mic16_spatial_evidence_cache.c",
+      "line": 56,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_spatial_evidence_coarse",
+      "file": "firmware/modules/dataflow/src/mic16_spatial_evidence_cache.c",
+      "line": 94,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_fast_doa_begin",
+      "file": "build/inputs/c6115deead/mic16_fast_doa_task.c",
+      "line": 37,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "publish",
+      "file": "build/inputs/c6115deead/mic16_fast_doa_task.c",
+      "line": 59,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_fast_doa_step",
+      "file": "build/inputs/c6115deead/mic16_fast_doa_task.c",
+      "line": 88,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_fast_doa_ack",
+      "file": "build/inputs/c6115deead/mic16_fast_doa_task.c",
+      "line": 155,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_latest_display_encode",
+      "file": "build/inputs/19d5cf4a39/mic16_latest_display_wire.c",
+      "line": 16,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_shared_compute_graph_init",
+      "file": "firmware/acceleration/projection_engine/src/mic16_shared_compute_graph.c",
+      "line": 16,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_shared_compute_graph_service",
+      "file": "firmware/acceleration/projection_engine/src/mic16_shared_compute_graph.c",
+      "line": 40,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_fft64_graph_init",
+      "file": "firmware/acceleration/projection_engine/src/mic16_fft64_graph.c",
+      "line": 22,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "m16_fft64_graph_service",
+      "file": "firmware/acceleration/projection_engine/src/mic16_fft64_graph.c",
+      "line": 64,
+      "basis": "ps_recipe_actual_compile"
+    },
+    {
+      "function": "run",
+      "file": "host/python_tools/mic16_qt/services/source_network.py",
+      "line": 288,
+      "basis": "host_source"
+    },
+    {
+      "function": "_publish",
+      "file": "host/python_tools/mic16_qt/services/source_network.py",
+      "line": 275,
+      "basis": "host_source"
+    },
+    {
+      "function": "take_snapshot",
+      "file": "host/python_tools/mic16_qt/services/source_network.py",
+      "line": 271,
+      "basis": "host_source"
+    },
+    {
+      "function": "connect_device",
+      "file": "host/python_tools/mic16_qt/presentation/compact_window.py",
+      "line": 667,
+      "basis": "host_source"
+    },
+    {
+      "function": "_fast_packet_arrived",
+      "file": "host/python_tools/mic16_qt/presentation/compact_window.py",
+      "line": 886,
+      "basis": "host_source"
+    },
+    {
+      "function": "_apply_fast_direction",
+      "file": "host/python_tools/mic16_qt/presentation/compact_window.py",
+      "line": 911,
+      "basis": "host_source"
+    },
+    {
+      "function": "_apply_fast_map",
+      "file": "host/python_tools/mic16_qt/presentation/compact_window.py",
+      "line": 931,
+      "basis": "host_source"
+    },
+    {
+      "function": "_redraw_source_audio",
+      "file": "host/python_tools/mic16_qt/presentation/compact_window.py",
+      "line": 1033,
+      "basis": "host_source"
+    },
+    {
+      "function": "start_usb_video",
+      "file": "host/python_tools/mic16_qt/presentation/video_panel.py",
+      "line": 618,
+      "basis": "host_source"
+    },
+    {
+      "function": "_poll",
+      "file": "host/python_tools/mic16_qt/presentation/video_panel.py",
+      "line": 665,
+      "basis": "host_source"
+    },
+    {
+      "function": "set_spatial_response",
+      "file": "host/python_tools/mic16_qt/presentation/video_panel.py",
+      "line": 401,
+      "basis": "host_source"
+    },
+    {
+      "function": "_update_physical_overlay",
+      "file": "host/python_tools/mic16_qt/presentation/video_panel.py",
+      "line": 410,
+      "basis": "host_source"
+    },
+    {
+      "function": "paintEvent",
+      "file": "host/python_tools/mic16_qt/presentation/video_panel.py",
+      "line": 56,
+      "basis": "host_source"
+    },
+    {
+      "function": "start",
+      "file": "host/python_tools/mic16_qt/presentation/usb_camera_preview.py",
+      "line": 102,
+      "basis": "host_source"
+    },
+    {
+      "function": "_accept_frame",
+      "file": "host/python_tools/mic16_qt/presentation/usb_camera_preview.py",
+      "line": 159,
+      "basis": "host_source"
+    },
+    {
+      "function": "take_latest",
+      "file": "host/python_tools/mic16_qt/presentation/usb_camera_preview.py",
+      "line": 173,
+      "basis": "host_source"
+    },
+    {
+      "function": "project_direction",
+      "file": "host/python_tools/mic16_av_fusion/preview_projection.py",
+      "line": 29,
+      "basis": "host_source"
+    },
+    {
+      "function": "decode_direction",
+      "file": "host/python_tools/mic16_av_fusion/fast_display_wire.py",
+      "line": 98,
+      "basis": "host_source"
+    },
+    {
+      "function": "accept_current",
+      "file": "host/python_tools/mic16_av_fusion/fast_display_wire.py",
+      "line": 174,
+      "basis": "host_source"
+    },
+    {
+      "function": "same_observation",
+      "file": "host/python_tools/mic16_av_fusion/fast_display_wire.py",
+      "line": 72,
+      "basis": "host_source"
+    }
+  ],
+  "board_operations": 0,
+  "implementation_modified": false
+}

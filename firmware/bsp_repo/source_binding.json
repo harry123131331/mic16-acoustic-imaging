@@ -1,0 +1,149 @@
+{
+  "xsa_sha256": "53161afca011bc27fd75b2f4190dc95faa64611a64e391f6fc41fcf7c05b1aa7",
+  "files": [
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/data/m16_shared_projection_engine.mdd",
+      "original_sha256": "a93e74b51bcffacc219fb86a94286ced6b531dbbac107df09710c89270c339cd",
+      "installed_sha256": "a93e74b51bcffacc219fb86a94286ced6b531dbbac107df09710c89270c339cd",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/data/m16_shared_projection_engine.tcl",
+      "original_sha256": "c366f0f93ffe6bb55f88c6e7c0998e4e5c14c78f9602672403768199fffdd61e",
+      "installed_sha256": "c366f0f93ffe6bb55f88c6e7c0998e4e5c14c78f9602672403768199fffdd61e",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/src/Makefile",
+      "original_sha256": "f5b9a2d98c4a68176f91b8e871cd70695390fa6617251a630da6764d403bf1cd",
+      "installed_sha256": "9c63b254e67f2c8d205022c3ace5a349bbaa7e5393490b7977ecf294630d0c2f",
+      "makefile_only_patch": true
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/src/xm16_shared_projection_engine.c",
+      "original_sha256": "af7e1a3b6a131828f0d84fdc065b323512403f340609bb33f6f0573c356aaa7b",
+      "installed_sha256": "af7e1a3b6a131828f0d84fdc065b323512403f340609bb33f6f0573c356aaa7b",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/src/xm16_shared_projection_engine.h",
+      "original_sha256": "904e94cfcb7e3012e80bed5fe89b32b5fd0e0df345c7e836676db40444cff012",
+      "installed_sha256": "904e94cfcb7e3012e80bed5fe89b32b5fd0e0df345c7e836676db40444cff012",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/src/xm16_shared_projection_engine_hw.h",
+      "original_sha256": "880058bb345018e9e21975d5633c2809d7038bc2037a6de78611c51fe095a774",
+      "installed_sha256": "880058bb345018e9e21975d5633c2809d7038bc2037a6de78611c51fe095a774",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/src/xm16_shared_projection_engine_linux.c",
+      "original_sha256": "97738d760927bdd3ac7f0465021b57a8743d11b5d2a86ec96e891180ae1e4c43",
+      "installed_sha256": "97738d760927bdd3ac7f0465021b57a8743d11b5d2a86ec96e891180ae1e4c43",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_shared_projection_engine_v3_0/src/xm16_shared_projection_engine_sinit.c",
+      "original_sha256": "48ac77f7c175df6cc971d48642e93460dc4872fa3e658bdcd059cf210c0ad789",
+      "installed_sha256": "48ac77f7c175df6cc971d48642e93460dc4872fa3e658bdcd059cf210c0ad789",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/data/m16_sp_shared.mdd",
+      "original_sha256": "03ac9906974397dfdb5c9fb2ccd09c18d59bdcabc78c8438686cfe1d12b7b427",
+      "installed_sha256": "03ac9906974397dfdb5c9fb2ccd09c18d59bdcabc78c8438686cfe1d12b7b427",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/data/m16_sp_shared.tcl",
+      "original_sha256": "a647e1592fea9028a8c152e7662ea73f6a6df6b528e0dd7692666541d203372c",
+      "installed_sha256": "a647e1592fea9028a8c152e7662ea73f6a6df6b528e0dd7692666541d203372c",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/src/Makefile",
+      "original_sha256": "d32f3bed4dc04aba3c52edcde7682388f3b410fee659b80180fa915d6d709bd9",
+      "installed_sha256": "ef91bef99d32d0eceab38a93a9835c29655b070ac2013c4a4f849a8f2eab47c3",
+      "makefile_only_patch": true
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/src/xm16_sp_shared.c",
+      "original_sha256": "0509a1cea12fe5d0b6fa27aa16813de27dfc2e960d2e0ee2a8bf6fa6cf75c36a",
+      "installed_sha256": "0509a1cea12fe5d0b6fa27aa16813de27dfc2e960d2e0ee2a8bf6fa6cf75c36a",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/src/xm16_sp_shared.h",
+      "original_sha256": "83131cdb24c0772326a7da3365c0327982dee2c528b492f60763b211a9fb2f48",
+      "installed_sha256": "83131cdb24c0772326a7da3365c0327982dee2c528b492f60763b211a9fb2f48",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/src/xm16_sp_shared_hw.h",
+      "original_sha256": "43613a9acaed9266fd612f8a179f99e1699449efa291c292f23273dd39d6c2b8",
+      "installed_sha256": "43613a9acaed9266fd612f8a179f99e1699449efa291c292f23273dd39d6c2b8",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/src/xm16_sp_shared_linux.c",
+      "original_sha256": "651aaa2bccf157c1e071f7617b89357c6b93e5d12cfb12045076239cfaeef414",
+      "installed_sha256": "651aaa2bccf157c1e071f7617b89357c6b93e5d12cfb12045076239cfaeef414",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/m16_sp_shared_v1_0/src/xm16_sp_shared_sinit.c",
+      "original_sha256": "8367e78de1d605ca87d31f345170e9021f0a62ab32d9336bfc55bc6b0b0fb563",
+      "installed_sha256": "8367e78de1d605ca87d31f345170e9021f0a62ab32d9336bfc55bc6b0b0fb563",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/data/mic16_tf_zone_streaming_hls_q2_24.mdd",
+      "original_sha256": "38826a18f4055a1766963a33f7e818835979687fe45b091cc6726b353680c330",
+      "installed_sha256": "38826a18f4055a1766963a33f7e818835979687fe45b091cc6726b353680c330",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/data/mic16_tf_zone_streaming_hls_q2_24.tcl",
+      "original_sha256": "1aca64b10777c04d9d275e3fe2f24ca63b8ac867d570e60d19e57c74db99fe01",
+      "installed_sha256": "1aca64b10777c04d9d275e3fe2f24ca63b8ac867d570e60d19e57c74db99fe01",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/src/Makefile",
+      "original_sha256": "9cd73fc7091355732268714b4a906fbac676de8040f85720924935e340fd61e7",
+      "installed_sha256": "1bcede482f54677078273a21c5670f5ef155ab3b22948af9ba66e65e51b87e2e",
+      "makefile_only_patch": true
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/src/xmic16_tf_zone_streaming_hls_q2_24.c",
+      "original_sha256": "78d1a1397bb5a9781f41a9abe72c6c704ca3bba0f44f617f7e11da7631b89898",
+      "installed_sha256": "78d1a1397bb5a9781f41a9abe72c6c704ca3bba0f44f617f7e11da7631b89898",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/src/xmic16_tf_zone_streaming_hls_q2_24.h",
+      "original_sha256": "cbd541479cc79067a872011b849b0d1304af45092f8b1450cd7846e8a384943c",
+      "installed_sha256": "cbd541479cc79067a872011b849b0d1304af45092f8b1450cd7846e8a384943c",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/src/xmic16_tf_zone_streaming_hls_q2_24_hw.h",
+      "original_sha256": "a9c08df570a4e75736d024d66ad4d113a4d35f7b901d3d487e2b2d7bff5ab52a",
+      "installed_sha256": "a9c08df570a4e75736d024d66ad4d113a4d35f7b901d3d487e2b2d7bff5ab52a",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/src/xmic16_tf_zone_streaming_hls_q2_24_linux.c",
+      "original_sha256": "3aa5544849e7f35e8482edc2d3ccc8388141a3b3f06fc8b1eb7e827fec9fed92",
+      "installed_sha256": "3aa5544849e7f35e8482edc2d3ccc8388141a3b3f06fc8b1eb7e827fec9fed92",
+      "makefile_only_patch": false
+    },
+    {
+      "path": "drivers/mic16_tf_zone_streaming_hls_q2_24_v1_0/src/xmic16_tf_zone_streaming_hls_q2_24_sinit.c",
+      "original_sha256": "3a5b6472a70d40daeb02dcdf4bf474f02672acbc21fc137e5153a289afb4ddf6",
+      "installed_sha256": "3a5b6472a70d40daeb02dcdf4bf474f02672acbc21fc137e5153a289afb4ddf6",
+      "makefile_only_patch": false
+    }
+  ]
+}

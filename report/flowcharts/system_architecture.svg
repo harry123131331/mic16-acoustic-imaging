@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="900" y="82.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="50" fill="#172b3f">16路声学定位与USB声像显示</text>
+<rect x="30" y="300" width="270" height="200" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="165.0" y="361.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">16路MEMS</text>
+<text x="165.0" y="413.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">圆形阵列</text>
+<text x="165.0" y="465.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">共享PDM时钟</text>
+<rect x="355" y="300" width="300" height="200" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="505.0" y="358.72" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">PL采集</text>
+<text x="505.0" y="414.62" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">抽取与封包</text>
+<text x="505.0" y="470.52" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="43" fill="#172b3f">AXI DMA</text>
+<rect x="715" y="300" width="340" height="200" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="885.0" y="361.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">PS连续PCM环</text>
+<text x="885.0" y="413.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">及时归还采集槽</text>
+<text x="885.0" y="465.6" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="40" fill="#172b3f">独立RAW发送</text>
+<rect x="715" y="650" width="340" height="180" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="885.0" y="726.36" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="44" fill="#172b3f">PS最新四帧</text>
+<text x="885.0" y="783.5600000000001" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="44" fill="#172b3f">独立快照</text>
+<rect x="1120" y="650" width="300" height="180" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1270.0" y="727.91" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">共享计算路径</text>
+<text x="1270.0" y="778.61" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">FFT与空间扫描</text>
+<rect x="1120" y="300" width="300" height="200" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1270.0" y="363.52000000000004" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="38" fill="#172b3f">PS短时融合</text>
+<text x="1270.0" y="412.92" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="38" fill="#172b3f">峰值与质量判定</text>
+<text x="1270.0" y="462.32" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="38" fill="#172b3f">方向及真实响应</text>
+<rect x="1480" y="300" width="290" height="200" rx="16" fill="#eaf5ee" stroke="#285572" stroke-width="3"/>
+<text x="1625.0" y="363.52000000000004" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="38" fill="#172b3f">Qt上位机</text>
+<text x="1625.0" y="412.92" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="38" fill="#172b3f">方向小点与波形</text>
+<text x="1625.0" y="462.32" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="38" fill="#172b3f">声像叠加</text>
+<rect x="1480" y="650" width="290" height="180" rx="16" fill="#eaf5ee" stroke="#285572" stroke-width="3"/>
+<text x="1625.0" y="726.98" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">USB摄像头</text>
+<text x="1625.0" y="781.5799999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">直接接电脑</text>
+<polyline points="300,400 355,400" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="355,400 335.1901637482411,409.5692417504471 335.1901637482411,390.4307582495529" fill="#285572"/>
+<polyline points="655,400 715,400" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="715,400 695.1901637482412,409.5692417504471 695.1901637482412,390.4307582495529" fill="#285572"/>
+<polyline points="885,500 885,650" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="885,650 875.4307582495529,630.1901637482412 894.5692417504471,630.1901637482412" fill="#285572"/>
+<polyline points="1055,740 1120,740" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1120,740 1100.190163748241,749.5692417504471 1100.190163748241,730.4307582495529" fill="#285572"/>
+<polyline points="1270,650 1270,500" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1270,500 1279.569241750447,519.8098362517588 1260.430758249553,519.8098362517588" fill="#285572"/>
+<polyline points="1420,400 1480,400" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1480,400 1460.190163748241,409.5692417504471 1460.190163748241,390.4307582495529" fill="#285572"/>
+<polyline points="1625,650 1625,500" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1625,500 1634.569241750447,519.8098362517588 1615.430758249553,519.8098362517588" fill="#285572"/>
+<polyline points="885,300 885,190 1625,190 1625,300" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1625,300 1615.430758249553,280.1901637482411 1634.569241750447,280.1901637482411" fill="#285572"/>
+<text x="1250" y="156.9" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="35" fill="#172b3f">RAW音频</text>
+<text x="920" y="926.9" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="35" fill="#172b3f">控制：Qt握手与START / STOP，板端返回状态；相机不占用PL视频资源</text>
+</svg>

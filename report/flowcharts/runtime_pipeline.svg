@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080"><rect width="100%" height="100%" fill="white"/>
+<text x="900" y="77.0" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="50" fill="#172b3f">采集生产者与分析消费者独立推进</text>
+<text x="450" y="165.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">采集与发送</text>
+<text x="1350" y="165.3" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">定位分析</text>
+<rect x="100" y="220" width="700" height="160" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="450.0" y="313.26" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">DMA完成 → 有界复制 → 归还租约</text>
+<rect x="100" y="470" width="700" height="160" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="450.0" y="536.05" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">20槽PCM环</text>
+<text x="450.0" y="594.55" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="45" fill="#172b3f">保持连续样本轴</text>
+<rect x="100" y="800" width="700" height="160" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="450.0" y="866.98" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">独立RAW队列 → UDP</text>
+<text x="450.0" y="921.5799999999999" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">不等待定位任务结束</text>
+<rect x="1000" y="220" width="700" height="160" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1350.0" y="286.98" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">任务空闲时选最新连续四帧</text>
+<text x="1350.0" y="341.58000000000004" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">复制为独立快照</text>
+<rect x="1000" y="470" width="700" height="160" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1350.0" y="537.91" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">推进FFT / PHAT / 扫描 / 融合</text>
+<text x="1350.0" y="588.61" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">每步有界，共享设备按所有权交接</text>
+<rect x="1000" y="800" width="700" height="160" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1350.0" y="867.91" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">发布新序号方向和真实响应</text>
+<text x="1350.0" y="918.61" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="39" fill="#172b3f">公开组间及停止尾部未分析区间</text>
+<polyline points="450,380 450,470" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="450,470 440.4307582495529,450.1901637482411 459.5692417504471,450.1901637482411" fill="#285572"/>
+<polyline points="450,630 450,800" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="450,800 440.4307582495529,780.1901637482412 459.5692417504471,780.1901637482412" fill="#285572"/>
+<polyline points="800,550 900,550 900,300 1000,300" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1000,300 980.1901637482412,309.5692417504471 980.1901637482412,290.4307582495529" fill="#285572"/>
+<text x="900" y="431.9" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="35" fill="#172b3f">快照</text>
+<polyline points="1350,380 1350,470" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1350,470 1340.430758249553,450.1901637482411 1359.569241750447,450.1901637482411" fill="#285572"/>
+<polyline points="1350,630 1350,800" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1350,800 1340.430758249553,780.1901637482412 1359.569241750447,780.1901637482412" fill="#285572"/>
+<polyline points="1700,880 1760,880 1760,190 1350,190 1350,220" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1350,220 1340.430758249553,200.1901637482411 1359.569241750447,200.1901637482411" fill="#285572"/>
+</svg>

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": 81,
+  "main_display": "DEEP_BLUE_BACKGROUND_FIXED_9PX_POINT",
+  "camera_overlay_unchanged": true,
+  "unchanged_files_sha256": {
+    "host/python_tools/mic16_qt/presentation/video_panel.py": "26a60a8d88b55e0b0b903332ff8143bc358d0fd0376e41a931428d6bc916ca98",
+    "host/python_tools/mic16_av_fusion/spatial_response_overlay.py": "123a1e11816b9d4932d13de60a96e5d3d1bdd9f91119603afae236380e7fe239",
+    "build/config/array_installation.json": "a16abfa9fd55f72c618a88b0e3c46fd93f97ef561d80fb058db8bd29ff4b7b64"
+  },
+  "firmware_changed": false,
+  "board_operations": 0,
+  "new_capture": false,
+  "default_manual_loader_package": "audio_hemisphere_localization_candidate_20261101",
+  "preserved_baseline_packages": [
+    "audio_latest_window_display_v6_20261030",
+    "audio_latest_window_timed_test_20261030",
+    "audio_latest_window_observation_headroom_20261031",
+    "audio_localization_continuous_headroom_20261101"
+  ],
+  "archived_entrypoints": [
+    "build_latest_window_display_candidate.cmd",
+    "build_localization_only_offline.cmd",
+    "check_continuous_display_candidate.cmd",
+    "check_latest_window_display_candidate.cmd",
+    "check_localization_test_candidate.cmd",
+    "load_continuous_display_candidate.cmd",
+    "load_latest_window_display_candidate.cmd",
+    "load_localization_test_candidate.cmd",
+    "preview_functions.cmd"
+  ],
+  "archived_log_count": 4,
+  "archive_original_bytes": 159177998,
+  "archive_bytes": 558155,
+  "removed_cache_files": 42,
+  "logical_bytes_released": 159245464,
+  "no_physical_latency_or_angle_acceptance": true
+}

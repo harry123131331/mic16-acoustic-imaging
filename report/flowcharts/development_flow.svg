@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="640" viewBox="0 0 1800 640"><rect width="100%" height="100%" fill="white"/>
+<rect x="50" y="70" width="500" height="150" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="300.0" y="159.28" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">需求与接口核验</text>
+<rect x="650" y="70" width="500" height="150" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="159.28" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">建立数值基线</text>
+<rect x="1250" y="70" width="500" height="150" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1500.0" y="159.28" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">划分任务与缓存</text>
+<rect x="1250" y="370" width="500" height="150" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="1500.0" y="459.28" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">持续采集和显示</text>
+<rect x="650" y="370" width="500" height="150" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="900.0" y="459.28" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">实板分段计时</text>
+<rect x="50" y="370" width="500" height="150" rx="16" fill="#edf4fa" stroke="#285572" stroke-width="3"/>
+<text x="300.0" y="459.28" text-anchor="middle" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="42" fill="#172b3f">启停与完整性验收</text>
+<polyline points="550,145 650,145" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="650,145 630.1901637482412,154.56924175044708 630.1901637482412,135.43075824955292" fill="#285572"/>
+<polyline points="1150,145 1250,145" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1250,145 1230.190163748241,154.56924175044708 1230.190163748241,135.43075824955292" fill="#285572"/>
+<polyline points="1500,220 1500,370" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1500,370 1490.430758249553,350.1901637482411 1509.569241750447,350.1901637482411" fill="#285572"/>
+<polyline points="1250,445 1150,445" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="1150,445 1169.809836251759,435.4307582495529 1169.809836251759,454.5692417504471" fill="#285572"/>
+<polyline points="650,445 550,445" fill="none" stroke="#285572" stroke-width="5"/>
+<polygon points="550,445 569.8098362517588,435.4307582495529 569.8098362517588,454.5692417504471" fill="#285572"/>
+</svg>

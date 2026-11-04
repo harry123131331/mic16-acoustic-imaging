@@ -1,0 +1,175 @@
+"""MIC16 acoustic-camera research helpers.
+
+Phase 1 consumes the existing azimuth result as a read-only observer.  The
+separate Phase-2 modules define an experimental front-hemisphere azimuth/
+elevation geometry and SRP-PHAT baseline without changing the formal
+localization, enhancement, UDP, HLS or legacy geometry contracts.
+"""
+
+from .azimuth_overlay import (
+    AzimuthOverlayState,
+    OverlayGeometry,
+    compute_overlay_geometry,
+    render_azimuth_overlay,
+)
+from .camera_provider import (
+    CAMERA_SOURCE_KINDS,
+    CameraFrame,
+    CameraWorker,
+    create_frame_provider,
+    make_demo_frame,
+    opencv_available,
+)
+from .capture_evidence import save_evidence_bundle
+from .cross_band_consistency import (
+    CROSS_BAND_CONSISTENCY_VERSION,
+    DEFAULT_SPEECH_SUBBANDS,
+    BandCandidateSupport,
+    CrossBandDecision,
+    CrossBandThresholds,
+    SubbandGccBundle,
+    SubbandSpec,
+    evaluate_cross_band_candidate,
+    extract_subband_gcc_phat,
+    subband_spatial_responses,
+)
+from .candidate_directness import (
+    CANDIDATE_DIRECTNESS_VERSION,
+    BandDirectness,
+    DirectnessDecision,
+    DirectnessFeatures,
+    DirectnessThresholds,
+    apply_directness_gate,
+    evaluate_candidate_directness,
+    extract_candidate_directness,
+)
+from .candidate_speech_activity import (
+    CANDIDATE_SPEECH_ACTIVITY_VERSION,
+    CandidateSpeechActivityGate,
+    SpeechActivityDecision,
+    SpeechActivityFeatures,
+    SpeechActivityThresholds,
+    decide_speech_activity,
+    delay_and_sum_candidate_azel,
+    extract_speech_activity_features,
+    speech_activity_score,
+)
+from .joint_valid_source_gate import (
+    JOINT_VALID_SOURCE_GATE_VERSION,
+    JointCandidateDecision,
+    JointGateThresholds,
+    evaluate_joint_candidate,
+)
+from .interpretable_candidate_classifier import (
+    FEATURE_NAMES,
+    INTERPRETABLE_CANDIDATE_CLASSIFIER_VERSION,
+    CandidateLogisticModel,
+    LogisticTrainingConfig,
+    fit_candidate_logistic,
+)
+from .features_2d import (
+    AZEL_FEATURE_VERSION,
+    build_azel_frame_features,
+    global_quality_features,
+    pair_reliability_features,
+)
+from .geometry_2d import (
+    AZEL_GEOMETRY_CONTRACT_VERSION,
+    AzElGrid,
+    build_azel_lag_table,
+    direction_unit_vector,
+    expected_pair_lags_azel,
+    far_field_arrival_delays_samples_azel,
+    geometry_metadata,
+    great_circle_error_deg,
+    mic_positions_xyz,
+)
+from .gui_simulation import (
+    AZEL_GUI_SIMULATION_CONTRACT,
+    AZEL_SIMULATION_CONDITIONS,
+    AzElSimulationRequest,
+    condition_parameters,
+    run_azel_gui_simulation,
+)
+from .srp_phat_2d import (
+    SRP_AZEL_FORMULA_VERSION,
+    AzElEstimate,
+    AzElPeak,
+    estimate_azimuth_elevation,
+    relative_response_db,
+    srp_phat_azel_response,
+)
+
+__all__ = [
+    "AzimuthOverlayState",
+    "AZEL_FEATURE_VERSION",
+    "AZEL_GEOMETRY_CONTRACT_VERSION",
+    "AZEL_GUI_SIMULATION_CONTRACT",
+    "AZEL_SIMULATION_CONDITIONS",
+    "AzElEstimate",
+    "AzElGrid",
+    "AzElSimulationRequest",
+    "AzElPeak",
+    "CAMERA_SOURCE_KINDS",
+    "CANDIDATE_SPEECH_ACTIVITY_VERSION",
+    "CROSS_BAND_CONSISTENCY_VERSION",
+    "CameraFrame",
+    "CameraWorker",
+    "CandidateSpeechActivityGate",
+    "BandCandidateSupport",
+    "CrossBandDecision",
+    "CrossBandThresholds",
+    "DEFAULT_SPEECH_SUBBANDS",
+    "OverlayGeometry",
+    "SRP_AZEL_FORMULA_VERSION",
+    "SubbandGccBundle",
+    "SubbandSpec",
+    "SpeechActivityDecision",
+    "SpeechActivityFeatures",
+    "SpeechActivityThresholds",
+    "build_azel_lag_table",
+    "build_azel_frame_features",
+    "compute_overlay_geometry",
+    "condition_parameters",
+    "create_frame_provider",
+    "direction_unit_vector",
+    "decide_speech_activity",
+    "delay_and_sum_candidate_azel",
+    "estimate_azimuth_elevation",
+    "evaluate_cross_band_candidate",
+    "extract_speech_activity_features",
+    "extract_subband_gcc_phat",
+    "expected_pair_lags_azel",
+    "far_field_arrival_delays_samples_azel",
+    "geometry_metadata",
+    "great_circle_error_deg",
+    "global_quality_features",
+    "make_demo_frame",
+    "mic_positions_xyz",
+    "opencv_available",
+    "pair_reliability_features",
+    "render_azimuth_overlay",
+    "relative_response_db",
+    "run_azel_gui_simulation",
+    "save_evidence_bundle",
+    "speech_activity_score",
+    "JOINT_VALID_SOURCE_GATE_VERSION",
+    "JointCandidateDecision",
+    "JointGateThresholds",
+    "evaluate_joint_candidate",
+    "FEATURE_NAMES",
+    "INTERPRETABLE_CANDIDATE_CLASSIFIER_VERSION",
+    "CandidateLogisticModel",
+    "LogisticTrainingConfig",
+    "fit_candidate_logistic",
+    "subband_spatial_responses",
+    "CANDIDATE_DIRECTNESS_VERSION",
+    "BandDirectness",
+    "DirectnessDecision",
+    "DirectnessFeatures",
+    "DirectnessThresholds",
+    "apply_directness_gate",
+    "evaluate_candidate_directness",
+    "extract_candidate_directness",
+    "srp_phat_azel_response",
+]

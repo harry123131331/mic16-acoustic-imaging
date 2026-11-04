@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "origin": "EXISTING_MEETING_ROOM_C_SPATIAL_MAP_REPLAY_NOT_REALTIME_OR_REAL_BOARD",
+  "files": {
+    "meeting_room_0.m16h": {
+      "bytes": 1452,
+      "sha256": "ad3c4869e19520bfaa8099359d2d7e76ed4e63e68a951dfb144b448502fabc9d"
+    },
+    "meeting_room_1.m16h": {
+      "bytes": 1452,
+      "sha256": "d20bbcd23f1c682157f0b7e0435d27c25b01c5fd55b8eb5f288609b003aeb88e"
+    },
+    "meeting_room_2.m16h": {
+      "bytes": 1452,
+      "sha256": "55a026ae84c9fd3dc7ed799965f2907761ecf9c25afecdb19a554a925a162f71"
+    },
+    "meeting_room_3.m16h": {
+      "bytes": 1452,
+      "sha256": "67af6398e354fbc40c9005b7d0e70fdef133a6d5969e0bb44f33560916fa89af"
+    },
+    "meeting_room_4.m16h": {
+      "bytes": 1452,
+      "sha256": "71be9c2d463e6937a6865b6cca8994c86fc9369f78fcfa38fe9d4364c1e0037b"
+    },
+    "meeting_room_5.m16h": {
+      "bytes": 1452,
+      "sha256": "c81695c24808d3576223f1138650fb23184d8b1f420a9954c5b41ebfc92487fd"
+    },
+    "meeting_room_6.m16h": {
+      "bytes": 1452,
+      "sha256": "b367b83420dd6e81dd3ed3f6151f419ab48b7a814133c41d9efb4f4bce847b65"
+    },
+    "meeting_room_7.m16h": {
+      "bytes": 1452,
+      "sha256": "d4f074d73e38c0b6dfe1f16d9d7b026eef6baf569e1f94dc8b272ef4eae7c99e"
+    }
+  },
+  "derived_from": {
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_0/original_cpu/observation.bin": "57510f93e71f039863e4a4eca95b0f47a211e2c7ee67c5175de760a8b54e98c8",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_1/original_cpu/observation.bin": "49296fbdfc0e4ffb0f943b7ad2afa4dd3e9dac8b6487290b5ec1097864b412ce",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_2/original_cpu/observation.bin": "3b8468bf2071e253e98c0210e3143b38f5cca254c6714279041b98bc14737a9b",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_3/original_cpu/observation.bin": "6eb92925fc58dcfdaab98731f4fc3d386b41dcf854f28b68f4b86851c6386c4a",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_4/original_cpu/observation.bin": "73130c6c9f25a15a60102afd18cd9f139956e7e8ba972656c014e4669a75512b",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_5/original_cpu/observation.bin": "847e8b413899dda18ddbc384dc3c2359874b6d9c40ec3b29a6b2310c753f0e58",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_6/original_cpu/observation.bin": "d81e5e756d4f7c46cfcd6cce74756da9160430178b30309d3fe80c073a9eb64e",
+    "M:/build/verification/frontend_fixed_inputs_20261021/window_7/original_cpu/observation.bin": "e9e6e8357ffa2ee2e4e3e8843101ffabd3e90864503323998e8e20d32b0ac96a"
+  },
+  "raw_PCM_copied": false,
+  "training_added": false,
+  "private_camera_images_in_assets": false
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "catalogs": [
+    {
+      "name": "shared_spectrum",
+      "vlnv": "mic16:acoustic:m16_sp_shared:2.0",
+      "declared_files": 42
+    },
+    {
+      "name": "shared_compute",
+      "vlnv": "mic16:acoustic:m16_shared_projection_engine:6.0",
+      "declared_files": 108
+    },
+    {
+      "name": "scanner",
+      "vlnv": "xilinx.com:hls:mic16_tf_zone_streaming_hls_q2_24:1.0",
+      "declared_files": 35
+    }
+  ],
+  "required_design_files": 10,
+  "release_files": 214,
+  "errors": [],
+  "Vivado_executed": false,
+  "HLS_executed": false,
+  "board_operations": 0,
+  "claim": "仅文件依赖和版本检查；不是Vivado展开、综合、实现或新BIT的验证结果"
+}

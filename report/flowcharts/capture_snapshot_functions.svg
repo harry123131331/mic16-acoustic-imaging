@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="1375" viewBox="0 0 1650 1375">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#374151"/></marker></defs>
+<rect x="57.7" y="165.0" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="218.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_window_capture_step()</text>
+<text x="416.6" y="260.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">推进DMA状态及归一化</text>
+<rect x="57.7" y="393.8" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="447.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_window_capture_take()</text>
+<text x="416.6" y="489.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">取得完整帧lease</text>
+<rect x="57.7" y="622.6" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="676.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_pcm_acquisition_step()</text>
+<text x="416.6" y="718.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">每次复制256个F32到pcm[slot]</text>
+<rect x="57.7" y="851.4" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="905.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_window_capture_release()</text>
+<text x="416.6" y="947.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">ready=1；next_frame递增</text>
+<rect x="57.7" y="1080.2" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="416.6" y="1134.0" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">raw_copy() → pcm_wire_*()</text>
+<text x="416.6" y="1176.0" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">独立发送槽逐帧发送RAW</text>
+<path d="M416.6 319.0 L416.6 385.0" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M416.6 547.8 L416.6 613.8" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M416.6 776.6 L416.6 842.6" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M416.6 1005.4 L416.6 1071.4" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="899.2" y="165.0" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="218.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">admit()</text>
+<text x="1258.1" y="260.8" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">next_frame - analyzed_end ≥ 4</text>
+<rect x="899.2" y="393.8" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="447.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">selected_first = next_frame - 4</text>
+<text x="1258.1" y="489.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">snapshot()复制四个相邻帧</text>
+<rect x="899.2" y="622.6" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="676.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_pcm_acquisition_frame()</text>
+<text x="1258.1" y="718.4" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">核对epoch、帧号及ready</text>
+<rect x="899.2" y="851.4" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="905.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">快照有效 → compute()</text>
+<text x="1258.1" y="947.2" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">覆盖失效 → 重选最新窗口</text>
+<rect x="899.2" y="1080.2" width="717.7" height="149.6" rx="10" fill="white" stroke="#4b5563" stroke-width="3"/>
+<text x="1258.1" y="1134.0" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">m16_latest_window_ack()</text>
+<text x="1258.1" y="1176.0" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="37" fill="#202830">更新分析记录，回IDLE</text>
+<path d="M1258.1 319.0 L1258.1 385.0" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1258.1 547.8 L1258.1 613.8" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1258.1 776.6 L1258.1 842.6" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1258.1 1005.4 L1258.1 1071.4" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M775.5 926.2 L899.2 697.4" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="825.0" y="1337.6" text-anchor="middle" dominant-baseline="central" font-family="SimSun" font-size="32" fill="#202830">PCM环20帧；快照4帧且独占。分析间隙计数与采集丢帧计数分别记录。</text>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "kind": "HISTORICAL_LIMITED_GRID_SUMMARY",
+  "sample_rate_hz": 39062.5,
+  "samples_per_frame": 2048,
+  "captured_frames": 566,
+  "analyzed_frames": 248,
+  "uncovered_frames": 318,
+  "results": [],
+  "claims_physical_latency": false,
+  "claims_every_frame_analyzed": false,
+  "board_mean_compute_ms": 470.889,
+  "qt_mean_update_ms": 470.339,
+  "first_qt_result_ms": 1789.91
+}

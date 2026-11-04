@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1080"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="55.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="46" font-weight="700" fill="#172b3a">共享工作存储及FFT分银行映射</text>
+<rect x="40" y="150" width="2120" height="125" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1100.0" y="212.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="39" font-weight="400" fill="#172b3a">shared[4][2048]：每项64位，每bank 16 KiB，工作数据共64 KiB</text>
+<rect x="50" y="370" width="495" height="200" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="297.5" y="418.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">BANK 0</text>
+<text x="297.5" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">2048 × 64位</text>
+<text x="297.5" y="521.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">双端口BRAM</text>
+<rect x="595" y="370" width="495" height="200" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="842.5" y="418.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">BANK 1</text>
+<text x="842.5" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">2048 × 64位</text>
+<text x="842.5" y="521.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">双端口BRAM</text>
+<rect x="1140" y="370" width="495" height="200" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1387.5" y="418.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">BANK 2</text>
+<text x="1387.5" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">2048 × 64位</text>
+<text x="1387.5" y="521.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">双端口BRAM</text>
+<rect x="1685" y="370" width="495" height="200" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1932.5" y="418.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">BANK 3</text>
+<text x="1932.5" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">2048 × 64位</text>
+<text x="1932.5" y="521.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">双端口BRAM</text>
+<text x="590" y="655.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="700" fill="#172b3a">bank 0 / 1：实部</text>
+<text x="1670" y="655.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="700" fill="#172b3a">bank 2 / 3：虚部</text>
+<rect x="90" y="760" width="950" height="150" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="565.0" y="809.1" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">bank = 索引各位异或</text>
+<text x="565.0" y="860.9" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">行地址 = 索引右移1位</text>
+<rect x="1170" y="760" width="930" height="150" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1635.0" y="809.1" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">蝶形索引只差一个二进制位</text>
+<text x="1635.0" y="860.9" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="37" font-weight="400" fill="#172b3a">两点落到相反bank，分别读写</text>
+<path d="M1040 835 L1160 835" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1160,835 1145.390576955003,841.5241672489532 1145.390576955003,828.4758327510468" fill="#344b5e"/>
+<text x="1100" y="1010.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">FFT、统计与投影模式互斥复用工作RAM；旋转因子wr、wi另设双端口存储</text>
+</svg>

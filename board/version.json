@@ -1,0 +1,12 @@
+{
+  "current_grid": "FRONT_HEMISPHERE",
+  "algorithm": "0xa205",
+  "wire_version": 4,
+  "direction_slots": 325,
+  "unique_rays": 289,
+  "azimuth_step_deg": 15,
+  "plane_elevation_step_deg": 7.5,
+  "original_ELF_sha256": "01d28d3f4206776536b2e3153d7a7e4c6eab9a18c2a74388635547726cf3644d",
+  "deployed_math_unchanged_by_document_update": true,
+  "new_board_timing_ms": null
+}

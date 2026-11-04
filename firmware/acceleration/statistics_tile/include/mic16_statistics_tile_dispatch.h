@@ -1,0 +1,9 @@
+#ifndef MIC16_STATISTICS_TILE_DISPATCH_H
+#define MIC16_STATISTICS_TILE_DISPATCH_H
+#include "mic16_statistics_tile_runtime.h"
+extern unsigned m16_tile_dispatch_enabled;
+extern m16_tile_batch_report m16_tile_dispatch_counts;
+extern m16_tile_runtime_report m16_tile_dispatch_device;
+int m16_tile_dispatch_init(unsigned verified_build_abi);
+int m16_tile_dispatch_select(unsigned);
+#endif

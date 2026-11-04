@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1260"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="55.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="46" font-weight="700" fill="#172b3a">双方向双通道对的定点空间扫描</text>
+<rect x="30" y="115" width="640" height="940" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="50" y="133" width="600" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="350.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">观测与相位存储</text>
+<rect x="730" y="115" width="760" height="940" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="750" y="133" width="720" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1110.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">2方向 × 2通道对计算</text>
+<rect x="1550" y="115" width="620" height="940" fill="none" stroke="#8c99a5" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="1570" y="133" width="580" height="70" rx="10" fill="#f4ece0" stroke="#557590" stroke-width="3"/>
+<text x="1860.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="38" font-weight="400" fill="#172b3a">分频带累加与输出</text>
+<rect x="90" y="260" width="520" height="160" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="350.0" y="316.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">每频点加载32对观测</text>
+<text x="350.0" y="363.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">缓存在片内并重复使用</text>
+<rect x="90" y="650" width="520" height="210" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="350.0" y="707.4" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">初始相位与频点增量</text>
+<text x="350.0" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">326 × 32项分银行存储</text>
+<text x="350.0" y="802.6" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">每频点递推相位</text>
+<path d="M610 340 L790 340" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="790,340 775.3905769550031,346.5241672489531 775.3905769550031,333.4758327510469" fill="#344b5e"/>
+<path d="M610 755 L690 755 L690 630 L790 630" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="790,630 775.3905769550031,636.5241672489532 775.3905769550031,623.4758327510468" fill="#344b5e"/>
+<rect x="790" y="250" width="640" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1110.0" y="310.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">方向g：通道对p、p＋1</text>
+<text x="1110.0" y="359.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">观测点积＋相位旋转</text>
+<rect x="790" y="545" width="640" height="170" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1110.0" y="605.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">方向g＋1：通道对p、p＋1</text>
+<text x="1110.0" y="654.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">观测点积＋相位旋转</text>
+<rect x="790" y="850" width="640" height="135" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1110.0" y="893.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">32对分16组推进</text>
+<text x="1110.0" y="942.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">partial[2][8]交错累加</text>
+<path d="M1110 420 L1110 535" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1110,535 1103.475832751047,520.3905769550031 1116.524167248953,520.3905769550031" fill="#344b5e"/>
+<path d="M1110 715 L1110 840" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1110,840 1103.475832751047,825.3905769550031 1116.524167248953,825.3905769550031" fill="#344b5e"/>
+<rect x="1610" y="250" width="500" height="160" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1860.0" y="306.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">固定树形合并8槽</text>
+<text x="1860.0" y="353.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">累加到当前方向</text>
+<rect x="1610" y="550" width="500" height="160" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1860.0" y="606.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">每个频带独立归一化</text>
+<text x="1860.0" y="653.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">48位累加 → Q2.24</text>
+<rect x="1610" y="850" width="500" height="135" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1860.0" y="893.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">两个32位结果打包</text>
+<text x="1860.0" y="941.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">24 × 325点写回DDR</text>
+<path d="M1430 917 L1520 917 L1520 330 L1600 330" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1600,330 1585.390576955003,336.5241672489531 1585.390576955003,323.4758327510469" fill="#344b5e"/>
+<path d="M1860 410 L1860 540" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1860,540 1853.475832751047,525.3905769550031 1866.524167248953,525.3905769550031" fill="#344b5e"/>
+<path d="M1860 710 L1860 840" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1860,840 1853.475832751047,825.3905769550031 1866.524167248953,825.3905769550031" fill="#344b5e"/>
+<text x="1100" y="1155.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="35" font-weight="400" fill="#172b3a">方向与通道对两个维度按2路循环分区；奇数325方向补齐到326，只输出有效325槽</text>
+</svg>

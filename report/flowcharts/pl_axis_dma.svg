@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1080"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="55.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="46" font-weight="700" fill="#172b3a">PCM样本交织与AXI4 Stream握手</text>
+<rect x="40" y="150" width="500" height="145" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="290.0" y="197.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">同一采样时刻</text>
+<text x="290.0" y="247.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">16 × 32位PCM</text>
+<rect x="700" y="150" width="600" height="145" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1000.0" y="197.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">8组缓冲 → 32位串行输出</text>
+<text x="1000.0" y="247.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">样本优先，通道0…15</text>
+<rect x="1460" y="150" width="690" height="145" rx="10" fill="#dce8f2" stroke="#557590" stroke-width="3"/>
+<text x="1805.0" y="197.3" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">1024深度AXIS FIFO</text>
+<text x="1805.0" y="247.7" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="36" font-weight="400" fill="#172b3a">DMA S2MM → DDR / HP0</text>
+<path d="M540 222 L690 222" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="690,222 675.3905769550031,228.52416724895312 675.3905769550031,215.47583275104688" fill="#344b5e"/>
+<path d="M1300 222 L1450 222" fill="none" stroke="#344b5e" stroke-width="4"/>
+<polygon points="1450,222 1435.390576955003,228.52416724895312 1435.390576955003,215.47583275104688" fill="#344b5e"/>
+<text x="170" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">时钟拍</text>
+<text x="460" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">0</text>
+<text x="720" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="980" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">2</text>
+<text x="1240" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">3</text>
+<text x="1500" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">4</text>
+<text x="1760" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">5</text>
+<text x="2020" y="440.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">6</text>
+<text x="170" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">TVALID</text>
+<text x="460" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="720" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="980" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="1240" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="1500" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="1760" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="2020" y="545.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="170" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">TREADY</text>
+<text x="460" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="720" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">0</text>
+<text x="980" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">0</text>
+<text x="1240" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="1500" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="1760" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="2020" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">1</text>
+<text x="170" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">传输发生</text>
+<text x="460" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">是</text>
+<text x="720" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">否</text>
+<text x="980" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">否</text>
+<text x="1240" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">是</text>
+<text x="1500" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">是</text>
+<text x="1760" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">…</text>
+<text x="2020" y="755.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">是</text>
+<text x="170" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">TDATA</text>
+<text x="460" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">通道0</text>
+<text x="720" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">通道1</text>
+<text x="980" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">通道1</text>
+<text x="1240" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">通道1</text>
+<text x="1500" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">通道2</text>
+<text x="1760" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">…</text>
+<text x="2020" y="865.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="33" font-weight="400" fill="#172b3a">末通道</text>
+<text x="1100" y="1000.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="34" font-weight="400" fill="#172b3a">TREADY为0时保持数据与TLAST；第2048组的通道15握手后结束131072字节子帧</text>
+</svg>

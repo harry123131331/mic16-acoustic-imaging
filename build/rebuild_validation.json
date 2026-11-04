@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "compilation_units": 146,
+  "ELF_sha256": "8a10011f29bed1846cd908d40d8c1a80f1c8405fa42ec11350594fc397b4868e",
+  "build_seconds": 45.14099999999962,
+  "source_only_rebuild": true,
+  "new_board_validation": false,
+  "board_operations": 0,
+  "note": "重建的调试路径及工具环境可影响ELF字节；未经实板验证，不自动替换配套预编译包"
+}

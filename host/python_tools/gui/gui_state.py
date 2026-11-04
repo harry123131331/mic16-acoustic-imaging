@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+"""Runtime state names shared by the MIC16 GUI pages and workers."""
+
+from __future__ import annotations
+
+from enum import Enum
+
+
+class GuiRunState(str, Enum):
+    DISCONNECTED = "DISCONNECTED"
+    CONNECTING = "CONNECTING"
+    IDLE = "IDLE"
+    LIVE_MONITOR = "LIVE_MONITOR"
+    RECORDING = "RECORDING"
+    LOCALIZING = "LOCALIZING"
+    REPLAYING = "REPLAYING"
+    CALIBRATING = "CALIBRATING"
+    EXPORTING = "EXPORTING"
+    ERROR = "ERROR"
+
+
+BACKEND_GCC_PHAT_TDOA = "GCC-PHAT/TDOA"
+BACKEND_SRP_PHAT = "SRP-PHAT"
+BACKEND_DAS = "Delay-and-Sum"
+BACKEND_CA_QW_SRP_CCTCN = "CA-QW-SRP-CCTCN"
+BACKEND_LEGACY_NCC_DEBUG = "Legacy NCC Debug"
+
+FORMAL_BACKENDS = (
+    BACKEND_CA_QW_SRP_CCTCN,
+    BACKEND_SRP_PHAT,
+    BACKEND_GCC_PHAT_TDOA,
+    BACKEND_DAS,
+)
+
+ALL_PC_BACKENDS = (
+    BACKEND_CA_QW_SRP_CCTCN,
+    BACKEND_SRP_PHAT,
+    BACKEND_GCC_PHAT_TDOA,
+    BACKEND_DAS,
+    BACKEND_LEGACY_NCC_DEBUG,
+)
+

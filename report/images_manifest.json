@@ -1,0 +1,77 @@
+{
+  "images": [
+    {
+      "file": "images/array_pcb.png",
+      "width": 915,
+      "height": 729,
+      "sha256": "d984d0b3d4657cac7f31fdf99fe20837fec3d2278ba5195ca2a89afd930d2f6c",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/array_schematic.png",
+      "width": 1578,
+      "height": 969,
+      "sha256": "6ed6ca85a2f99994d6c7c1dfef264be8e172da5eb97ae2021d9c103062987f91",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/audio_block_design.png",
+      "width": 2075,
+      "height": 1046,
+      "sha256": "01fc3ba034bee1852134bc5adb7aad64f266c86eb60a8525c362bf9ff51ac61c",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/direction_marker.png",
+      "width": 1228,
+      "height": 769,
+      "sha256": "cd0959eab751d274e31115029f16e589e8473952c32f0498cb8716ab355a7a8a",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/hardware_assembly.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f55023557163d5d5533b5c12f779d506a14c620dba1edc02d62ae5bc6be0043c",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/overlay_test.jpg",
+      "width": 1280,
+      "height": 717,
+      "sha256": "0b7ba53ec964d4ef59861d3501f2a21a726823716d0147a0b85964b86f9998cc",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/response_test.png",
+      "width": 843,
+      "height": 707,
+      "sha256": "5d88e54864fa9a744b5c2049ce278e3353835e1cd3096cfac8152cb5e18f076b",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/test_platform.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "eab393fc1e2841e51d4f1532a789a8a148b9a2a993bf9cf032b8b589c524a4ac",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/vivado_top_schematic.png",
+      "width": 1020,
+      "height": 1095,
+      "sha256": "f06168c605fc3a3e37b8728bfe5f08c0524179f901fb64d220ad6857c4077153",
+      "source_pixels_unchanged": true
+    },
+    {
+      "file": "images/work_overview.png",
+      "width": 973,
+      "height": 547,
+      "sha256": "085caed7f4622e5de959e40ad4e3bf78c2bedfb2a364a963141f5a80735313c7",
+      "source_pixels_unchanged": true
+    }
+  ],
+  "existing_photos_and_test_images": 8,
+  "new_vivado_images": 2,
+  "total": 10
+}

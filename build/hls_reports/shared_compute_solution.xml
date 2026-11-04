@@ -1,0 +1,36 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <clockList>
+        <clock name="default" period="8" default="false"/>
+    </clockList>
+    <config>
+        <config_compile complex-mul-dsp="0" pipeline_loops="0"/>
+        <config_op impl="fabric" latency="8" positional0="fadd"/>
+        <config_op impl="fabric" positional0="fsub"/>
+        <config_op impl="fabric" positional0="dadd"/>
+        <config_export format="ip_catalog" library="acoustic" rtl="verilog" vendor="mic16" version="6.0"/>
+    </config>
+    <Simulation argv="">
+        <SimFlow name="cosim" setup="false" dumpTrace="none" optimizeCompile="false" ldflags="project/build/verification/shared_fir_compact_candidate_20261028/attempt_01/reference_table.o" mflags="" compiledLibrary="" toolName="xsim">
+            <Rtl name="systemc" active="false"/>
+            <Rtl name="verilog" active="true"/>
+            <Rtl name="vhdl" active="false"/>
+        </SimFlow>
+    </Simulation>
+    <name>
+        <value string="fir_resampling_v6_compact_rom"/>
+    </name>
+    <project>
+        <value string="unified_compute"/>
+    </project>
+    <targetInfo>
+        <TargetInfo value="xc7z020:-clg484:-2"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/zynq/zynq" name="DefaultPlatform"/>
+    </libraryList>
+    <flowTarget value="vivado"/>
+    <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
+        <Format formatName="ip_catalog" description="" vendor="mic16" library="acoustic" ipname="m16_shared_projection_engine" version="6.0" display_name="" taxonomy=""/>
+    </ExportDesign>
+</AutoPilot:solution>
+
